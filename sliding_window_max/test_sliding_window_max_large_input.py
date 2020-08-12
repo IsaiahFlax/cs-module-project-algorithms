@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
         arr = []
         k = 1000
 
-        with open("data/input.txt") as file:
+        with open("/data/input.txt") as file:
             for line in file:
                 arr.append(int(line.strip()))
 
